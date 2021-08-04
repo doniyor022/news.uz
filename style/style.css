@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #E5E5E5; 
+}
+
+.parent{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'ROBOTO',sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    color: #3a3838;
+    font-family: 'ROBOTO',sans-serif;
+    line-height: 22px;
+}
+header ul a {
+    margin: 43px 21px;
+    display: inline-block;
+    text-decoration: none;
+}
+header ul a:hover {
+    color: #ef4423;
+}
+.png{
+    margin: auto;
+    width: 100%;
+}
+
+.main-child{
+    display: flex;
+    font-family: 'ROBOTO',sans-serif;
+    flex-wrap: wrap;
+    line-height: 22px;
+    justify-content: space-between;
+    width: 100%;
+}
+.main-text, .main-img{
+    width: 25%;
+    font-size: 16px;
+}
+.main-text{
+    padding: 15px;
+}
+.main-img{
+    display: flex;
+
+}
+.main-text:nth-of-type(2){
+    background: #6A1B9A;
+}
+.main-text:nth-of-type(4){ 
+    background: #00695C;
+}
+.main-text:nth-of-type(5){
+    background: #B71C1C;
+}
+.main-text:nth-of-type(7){
+ background: #303F9F;
+}
+.main-child h2{
+    color: #FFFFFF;
+}
+.main-child p{
+color: #EBEBEB;
+}
+
+h1{
+ text-align: center;   
+ font-size: 22px;
+ font-family: 'ROBOTO',sans-serif;
+ color:  #3A3838;
+ margin: 15px;
+ 
+}
+.main-child2 {
+    width: 100%; 
+    display: flex;
+    background: #EDEDED;
+    flex-wrap:wrap ;
+    font-family: 'ROBOTO',sans-serif;
+    
+    
+}
+.main-item{
+    width: 1080%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+.main-child2 h2{
+    color: #3A3838;
+     width: 540px; 
+
+}
+.main-child2 p{
+    color: #686868;
+    width: 540px;
+    padding: 8px; 
+}
+.main-text2 {
+    padding: 15px;
+}
+footer {
+    background: #3A3838;
+}
+footer a {
+    text-align: center;
+    text-decoration: none;
+    color: #000000; 
+    font-family: 'ROBOTO',sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    color: #3a3838;
+    font-family: 'ROBOTO',sans-serif;
+    line-height: 22px;
+}
+footer ul a {
+    margin: 43px 21px;
+    display: inline-block;
+    text-decoration: none;
+}
+footer ul a:hover {
+    color: #ef4423;
+}
